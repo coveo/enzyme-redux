@@ -8,4 +8,6 @@ src
 
 .idea
 
+.prettierignore
+
 wallaby.js
