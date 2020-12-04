@@ -35,7 +35,6 @@
         "babel-eslint": "^8.0.1",
         "babel-jest": "^22.4.1",
         "cz-conventional-changelog": "^3.3.0",
-        "enzyme": "^3.3.0",
         "enzyme-adapter-react-16": "^1.1.1",
         "eslint": "^7.12.1",
         "eslint-config-prettier": "^6.11.0",
@@ -50,10 +49,6 @@
         "jest": "^26.4.2",
         "lint-staged": "^9.5.0",
         "prettier": "^2.1.0",
-        "react": "^16.2.0",
-        "react-dom": "^16.2.0",
-        "react-redux": "^5.0.7",
-        "redux": "^3.5.2",
         "redux-test-utils": "^0.1.0",
         "rimraf": "^2.5.3",
         "semantic-release": "^17.3.0"
@@ -112,5 +107,11 @@
     "jest": {
         "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js"
     },
-    "dependencies": {}
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-redux": "^7.2.2",
+        "redux": "4.0.5",
+        "enzyme": "^3.11.0"
+    }
 }
